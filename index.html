@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./media/todo-list.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script type="module" defer src="./scripts/main.js"></script>
+  <title>Projeto 01 - Lista de Tarefas</title>
+</head>
+
+<body>
+  <header>
+    <h1>Lista de Tarefas</h1>
+  </header>
+
+  <main>
+    <section class="todo-container">
+      <div class="todo-controls">
+        <input type="text" name="todo-input" id="todo-input" placeholder="Digite uma tarefa..." />
+        <button id="btn-adicionar">Adicionar</button>
+      </div>
+      <div class="todo-list-container">
+        <ul id="todo-ul" class="todo-list">
+        </ul>
+        <hr>
+      </div>
+    </section>
+  </main>
+
+  <footer>© produzido por Jonathan Engel</footer>
+
+  <div id="delete-controls">
+    <button class="general-button" id="delete-finished">Deletar Finalizados</button>
+    <button class="general-button" id="delete-all">Deletar Todos</button>
+  </div>
+
+  <div id="modal-container">
+    <div id="modal-window">
+
+    </div>
+  </div>
+</body>
+
+</html>
