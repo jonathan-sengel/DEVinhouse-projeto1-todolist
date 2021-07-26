@@ -25,22 +25,23 @@
     <section class="todo-container">
       <div class="todo-controls">
         <input type="text" name="todo-input" id="todo-input" placeholder="Digite uma tarefa..." />
-        <button id="btn-adicionar">Adicionar</button>
+        <button id="btn-adicionar"></button>
       </div>
       <div class="todo-list-container">
         <ul id="todo-ul" class="todo-list">
         </ul>
         <hr>
+        <div id="delete-controls">
+          <button class="general-button" id="delete-finished">Deletar Finalizados</button>
+          <button class="general-button" id="delete-all">Deletar Todos</button>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>© produzido por Jonathan Engel</footer>
 
-  <div id="delete-controls">
-    <button class="general-button" id="delete-finished">Deletar Finalizados</button>
-    <button class="general-button" id="delete-all">Deletar Todos</button>
-  </div>
+
 
   <div id="modal-container">
     <div id="modal-window">
