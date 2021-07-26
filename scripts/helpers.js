@@ -23,6 +23,4 @@ function generateId(idLength) {
   return newId;
 }
 
-
-
 export { generateId, createItemObject, validateIfExists };
